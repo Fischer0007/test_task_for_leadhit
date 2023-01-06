@@ -1,0 +1,6 @@
+{
+  "_templates":{
+    "1": {"name": "MyForm", "date": "date", "phone": "phone", "email": "email", "text": "text"}
+  }
+}
+
