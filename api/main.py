@@ -25,6 +25,9 @@ def get_form():
             return list_of_types[0]
     else:
         response = dict(zip(list(MyModel.parse_obj(form).dict().keys()), MyModel.parse_obj(form).dict().values()))
+        res = {k: v for k, v in response.items() if v is not None}
+        response.clear()
+        response.update(res)
         return response
 
 
