@@ -40,13 +40,6 @@ PARAMETRS12 = "?atr_1=$ test  text.&atr_2=+7  900600 99 99&atr_3=test_email@gmai
               "2023.01.07&atr_6=+7-900-600-99-99&atr_7=07.01.23&atr_8=тестовый_email@gmail.com&atr_9=" \
               "test--email@gmail=com&atr_10=07/01/2023"
 
-# PARAMETRS13 = ""
-#
-# PARAMETRS14 = ""
-#
-# PARAMETRS15 = ""
-
-
 
 RESPONSE1 = {
     "atr_1": "FIELD_TYPE",
@@ -87,9 +80,3 @@ RESPONSE4 = {
     "atr_8": "FIELD_TYPE",
     "atr_9": "FIELD_TYPE"
 }
-
-# RESPONSE5 = {}
-#
-# RESPONSE6 = {}
-#
-# RESPONSE7 = {}
