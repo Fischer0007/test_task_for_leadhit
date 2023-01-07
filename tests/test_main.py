@@ -7,7 +7,7 @@ from data_for_tests import *
                                  PARAMETRS5, PARAMETRS6, PARAMETRS7, PARAMETRS8])
 def test_get_form_positive(client, url):
     """
-    REST Api: Positive Test Get Form page
+    REST Api: Positive Test Get Form
     """
     response = client.post(f'/get_form/{url}')
     assert response.status_code == 200, 'Status code 200 - OK!'
@@ -21,7 +21,7 @@ def test_get_form_positive(client, url):
                                       (PARAMETRS12, RESPONSE4)])
 def test_get_form_negative(client, url, res):
     """
-    REST Api: Negative Test Get Form page
+    REST Api: Negative Test Get Form
     """
     response = client.post(f'/get_form/{url}')
     assert response.status_code == 200, 'Status code 200 - OK!'
