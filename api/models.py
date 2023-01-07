@@ -21,15 +21,11 @@ class MyModel(BaseModel):
     @validator('atr_1', 'atr_2', 'atr_3', 'atr_4', 'atr_5', 'atr_6', 'atr_7', 'atr_8', 'atr_9', 'atr_10')
     def validation(cls, v):
         test = {"date": r'^\d{4}\-\d\d\-\d\d$',
-                "phone": r'^ |\+7|7\s*\d{3}\s*\d{3}\s*\d{2}\s*\d{2}$',
-                "email": r'^\S+@\w+.\w{2,4}$'}
+                "phone": r'^(\+7| 7)[ ][\s]*\d{3}[\s]\d{3}[\s ]\d{2}[\s ]\d{2}',
+                "email": r'^[aA-zZ0-9]+@[a-z]+[.]{1}[a-z]+',
+                "text": r'^(([аА-яЯaA-zZ]+([, .!?]+)))+'}
 
         for key, r in test.items():
-            if re.fullmatch(r, v):
+            if re.match(r, v):
                 return key
-            if re.fullmatch(r, v) == False:
-                return Field_type.__name__
-        if " " not in v:
-            return Field_type.__name__
-        else:
-            return "text"
+        return Field_type.__name__
