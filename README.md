@@ -6,6 +6,12 @@
 - [Python >= 3.10](https://www.python.org/downloads/release/python-3100/)
 
  ## Local development in Ubuntu v.20.04
+ 
+Clone the project to the directory we need:
+
+```shell
+git clone https://github.com/Fischer0007/test_task_for_leadhit.git
+```
 
 Installing requerements for python:
 
