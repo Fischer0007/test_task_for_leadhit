@@ -1,6 +1,6 @@
 
 import pytest
-from data_for_tests import *
+from tests.data_for_tests import *
 
 
 @pytest.mark.parametrize("url", [PARAMETRS1, PARAMETRS2, PARAMETRS3, PARAMETRS4,

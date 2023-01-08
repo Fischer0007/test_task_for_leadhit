@@ -1,6 +1,6 @@
 import pytest
 from flask import current_app
-from api.main import *
+from api.app import *
 
 
 @pytest.fixture(scope="function")
