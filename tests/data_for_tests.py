@@ -36,7 +36,7 @@ PARAMETRS11 = "?atr_1=07.01.2023&atr_2=7-900-600-99-99&atr_3=test_email@gmail..c
               "8(900)6009999&atr_6=+790060099990&atr_7=8-900-600-99-99&atr_8=test_email@@gmail..com&atr_9=" \
               "test_email@gmail com&atr_10=07-01-2023"
 
-PARAMETRS12 = "?atr_1=$ test  text.&atr_2=+7  900600 99 99&atr_3=test_email@gmail..com&atr_4=+79006009999tel&atr_5=" \
+PARAMETRS12 = "?atr_1=200082252225&atr_2=+7  900600 99 99&atr_3=test_email@gmail..com&atr_4=+79006009999tel&atr_5=" \
               "2023.01.07&atr_6=+7-900-600-99-99&atr_7=07.01.23&atr_8=тестовый_email@gmail.com&atr_9=" \
               "test--email@gmail=com&atr_10=07/01/2023"
 
