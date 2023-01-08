@@ -2,13 +2,13 @@
 from flask import Flask, request, jsonify
 from flask_restful import Api
 from tinydb import TinyDB
-from api.models import *
+from .models import *
 
 
 app = Flask(__name__)
 api = Api(app)
 app.config.from_pyfile('config.cfg')
-db = TinyDB('../db/db.json')
+db = TinyDB('db/db.json')
 
 
 @app.route('/get_form/', methods=['POST'])
