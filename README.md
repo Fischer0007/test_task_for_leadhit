@@ -13,7 +13,7 @@ Clone the project to the directory we need:
 git clone https://github.com/Fischer0007/test_task_for_leadhit.git
 ```
 
-Перейти в  test_task_for_leadhit:
+Go to  test_task_for_leadhit:
 
 ```shell
 cd test_task_for_leadhit
@@ -25,7 +25,7 @@ Installing requerements for python:
 pip install -r req.txt
 ```
 
-Run app:
+Run Flask app:
 
 ```shell
 export FLASK_APP=app
