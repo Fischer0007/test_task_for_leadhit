@@ -1,5 +1,4 @@
 
-
 from flask import Flask, request, jsonify
 from flask_restful import Api
 from tinydb import TinyDB
