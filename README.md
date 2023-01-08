@@ -22,7 +22,8 @@ pip install -r req.txt
 Run app:
 
 ```shell
-python3 api/app.py
+export FLASK_APP=app
+flask run
 ```
 
 Run tests for application with full report:
