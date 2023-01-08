@@ -13,20 +13,28 @@ Clone the project to the directory we need:
 git clone https://github.com/Fischer0007/test_task_for_leadhit.git
 ```
 
+Go to  test_task_for_leadhit:
+
+```shell
+cd test_task_for_leadhit
+```
+
 Installing requerements for python:
 
 ```shell
 pip install -r req.txt
 ```
 
-Run app:
+Run Flask app:
 
 ```shell
-python3 api/app.py
+export FLASK_APP=app
+export FLASK_DEBUG=app
+flask run
 ```
 
 Run tests for application with full report:
 
 ```shell
-python3 -m pytest -rqpP api/tests/test_main.py
+python3 -m pytest -rqpP tests/test_main.py
 ```
