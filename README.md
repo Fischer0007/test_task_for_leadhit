@@ -29,6 +29,7 @@ Run Flask app:
 
 ```shell
 export FLASK_APP=app
+export FLASK_DEBUG=app
 flask run
 ```
 
