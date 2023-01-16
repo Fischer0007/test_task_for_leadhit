@@ -33,7 +33,7 @@ export FLASK_DEBUG=True
 flask run
 ```
 
-Run tests for application with full report:
+Run tests for the app with full report and app coverage report:
 
 ```shell
 python3 -m pytest tests/
