@@ -36,5 +36,5 @@ flask run
 Run tests for application with full report:
 
 ```shell
-python3 -m pytest -rqpP tests/test_main.py
+python3 -m pytest tests/
 ```
