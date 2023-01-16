@@ -29,12 +29,12 @@ Run Flask app:
 
 ```shell
 export FLASK_APP=app
-export FLASK_DEBUG=app
+export FLASK_DEBUG=True
 flask run
 ```
 
 Run tests for application with full report:
 
 ```shell
-python3 -m pytest -rqpP tests/test_main.py
+python3 -m pytest tests/
 ```
