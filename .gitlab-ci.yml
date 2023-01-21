@@ -7,9 +7,8 @@ Run API tests:
     stage: test
     script:
         - pip install -r req.txt
-        - python -m pytest --alluredir=allure_report tests/
-        - allure serve allure_report/*
+        - python3 -m pytest --alluredir=allure_report tests/
 
     artifacts:
         paths:
-          - allure_report//*
+          - allure_report/*
