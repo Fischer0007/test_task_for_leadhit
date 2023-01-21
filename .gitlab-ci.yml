@@ -1,0 +1,15 @@
+image: python:3.10-slim
+
+stages:
+  - test
+
+Run API tests:
+    stage: test
+    script:
+        - pip install -r req.txt
+        - python -m pytest --alluredir=allure_report tests/
+        - allure serve allure_report/*
+
+    artifacts:
+        paths:
+          - allure_report//*
