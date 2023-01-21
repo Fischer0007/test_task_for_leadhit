@@ -33,4 +33,3 @@ def get_form():
 @app.errorhandler(500)
 def handle_500(error):
     return str(error), 500
-
