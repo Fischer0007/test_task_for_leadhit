@@ -12,8 +12,8 @@ class TestApi:
         REST Api: Positive Test Get Form
         """
         response = client.post(f'/get_form/{url}')
-        assert response.status_code == 200, 'Status code 200 - OK!'
-        assert response.text == RES
+        assert response.status_code == 200, 'status code is not 200'
+        assert response.text == resp
         print(response.status, response.text, sep="\n")
 
     @pytest.mark.usefixtures("client")
@@ -26,6 +26,6 @@ class TestApi:
         REST Api: Negative Test Get Form
         """
         response = client.post(f'/get_form/{url}')
-        assert response.status_code == 200, 'Status code 200 - OK!'
+        assert response.status_code == 200, 'status code is not 200'
         assert response.json == res
         print(response.status, response.text, sep="\n")

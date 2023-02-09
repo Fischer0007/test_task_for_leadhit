@@ -23,7 +23,7 @@ PARAMETRS7 = "?atr_1=2023-01-07&atr_2=+7 900 600 99 99&atr_3=test_email1@gmail.c
 
 PARAMETRS8 = "?atr_1=2023-01-07&atr_2=+7 900 600 99 99&atr_3=test_email1@gmail.com&atr_4=Hello, World! Good Bay!"
 
-RES = "MyForm"
+resp = "MyForm"
 
 
 # for negative test
