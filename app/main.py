@@ -25,7 +25,7 @@ def get_form():
 
     else:
         visited = set()
-        list_of_types[:] = [x for x in list_of_types if x not in visited and x != None and not visited.add(x)]
+        list_of_types[:] = [x for x in list_of_types if x not in visited and x is not None and not visited.add(x)]
         if list_template == list_of_types:
             return list_of_types[0]
 
